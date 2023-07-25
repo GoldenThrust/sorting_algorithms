@@ -12,13 +12,6 @@ void swap(int *num, int *num2)
 	*num = *num2;
 	*num2 = temp;
 }
-void swap(int *num, int *num2)
-{
-	int temp = *num;
-
-	*num = *num2;
-	*num2 = temp;
-}
 
 /**
  * selection_sort - Sorts an array of integers using Selection Sort.
